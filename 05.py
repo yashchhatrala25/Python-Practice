@@ -12,3 +12,11 @@ print(5 + 2 * 3) # 11
 # + - L->R
 
 print(5 + 2 * 3 - 1 + 10 / 5)
+
+
+# Calculate BMI
+# weight/(height * height)
+weight = int(input("Enter the weight: "))
+height = float(input("Enter the height: "))
+BMI = weight/(height**2)
+print(BMI)
